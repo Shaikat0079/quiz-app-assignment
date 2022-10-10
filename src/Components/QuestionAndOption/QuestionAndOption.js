@@ -1,10 +1,16 @@
 import React from 'react';
 
-const QuestionAndOption = ({ questions }) => {
-    // const { queston } = questions
+const QuestionAndOption = ({ question }) => {
+    // const { queston } = question
     return (
         <div>
-            {/* <p>{queston.question}</p> */}
+            <div className=''><p>{question.question.replace(/<\/?[^>]+(>|$)/g, "")}</p></div>
+            <div className=''>
+                {/* <p>{question.options}</p> */}
+                {
+                    question.options.map(option => <p>{option}</p>)
+                }
+            </div>
         </div>
     );
 };
