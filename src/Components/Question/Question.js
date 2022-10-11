@@ -12,7 +12,7 @@ const Question = () => {
 
             <div className='text-center'>
                 {
-                    questions.map(question => <QuestionAndOption key={question.question} qus={question}></QuestionAndOption>)
+                    questions.map((question, index) => <QuestionAndOption key={question.question} index={index} qus={question}></QuestionAndOption>)
                 }
             </div>
 
