@@ -3,18 +3,18 @@ import 'react-toastify/dist/ReactToastify.css';
 import { EyeIcon } from '@heroicons/react/24/solid'
 
 const QuestionAndOption = ({ qus, index }) => {
-    const { options, correctAnswer, question, id } = qus;
+    const { options, id, correctAnswer, question } = qus;
     console.log(index)
     const clicked = (event) => { event.currentTarget.textContent === correctAnswer ? toast('You Got The Correct One') : toast('Try Again') }
     const notify = () => toast(correctAnswer);
 
     return (
-        <div className='m-6 bg-rose-400 p-6 flex flex-col justify-items-center'>
+        <div className='m-6 bg-rose-400 p-6 flex flex-col mx-auto justify-items-center'>
 
             <div>
                 <div className='flex gap-6 m-6'>
                     <p className='text-3xl text-white'>{index + 1}.{question.replace(/<\/?[^>]+(>|$)/g, "")}</p>
-                    <EyeIcon onClick={notify} className="h-12 w-12 text-gray-800" />
+                    <EyeIcon onClick={notify} className="h-40 md:h-12 text-gray-800" />
                     <ToastContainer />
                 </div>
             </div>
