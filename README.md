@@ -3,6 +3,7 @@
     <li>Used Loader And React Router Provider to call the API</li>
     <li>Added Icons from Hero Icons</li>
     <li>Added Charts with the help of Recharts</li>
+    <li>Added tailwind! Also for stayling the project!</li>
 </ul>
 # Getting Started with Create React App
 
