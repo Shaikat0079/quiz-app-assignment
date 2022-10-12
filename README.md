@@ -5,6 +5,12 @@
     <li>Added Charts with the help of Recharts</li>
     <li>Added tailwind! Also for stayling the project!</li>
 </ul>
+<p>This has been a simple project! First it seemed pretty difficult. But after some time and doing some searching it started to seem an easy task! Here you will find 4 exams on the topic of JS, REACT, CSS and GIT. These are objective type questions. Which are very easy if you have proper knowledge over them.<p>
+<h1>Here you will be able to see the answer is weather wrong or right through tost. </h1>
+<h1>By clicking the eye icon you can get the answer through tost. But you shouldn't be doing that. </h1>
+
+<h2><a href="https://fanciful-palmier-ff87dd.netlify.app/" target="_blank">Quiz App Live Link</a><h2>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
