@@ -4,7 +4,6 @@ import { EyeIcon } from '@heroicons/react/24/solid'
 
 const QuestionAndOption = ({ qus, index }) => {
     const { options, id, correctAnswer, question } = qus;
-    console.log(index)
     const clicked = (event) => { event.currentTarget.textContent === correctAnswer ? toast('You Got The Correct One') : toast('Try Again') }
     const notify = () => toast(correctAnswer);
 
