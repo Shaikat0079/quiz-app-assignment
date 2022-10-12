@@ -2,9 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Bars3BottomRightIcon } from '@heroicons/react/24/solid'
 
-{/* <nav className='text-2xl text-rose-600'><Link to='/topics'>Topics</Link></nav> */ }
-{/* <nav className='text-2xl text-rose-600'><Link to='/statistics'>Statics</Link></nav> */ }
-{/* <nav className='text-2xl text-rose-600'><Link to='/blog'>Blog</Link></nav> */ }
+
 
 
 
