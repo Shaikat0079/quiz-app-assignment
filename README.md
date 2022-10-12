@@ -1,3 +1,9 @@
+<ul>
+    <li>Added React-Router-Dom </li>
+    <li>Used Loader And React Router Provider to call the API</li>
+    <li>Added Icons from Hero Icons</li>
+    <li>Added Charts with the help of Recharts</li>
+</ul>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
